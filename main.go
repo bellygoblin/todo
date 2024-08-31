@@ -37,6 +37,19 @@ func markCompleted(index int) {
 	}
 }
 
+func editTask(index int, newString string) {
+	if index >= 1 && index <= len(tasks) {
+		// tasks[index - 1].TaskName = Task()
+		fmt.Println("Task edited successfully")
+	} else {
+		fmt.Println("Invalid Index")
+	}
+}
+
+func deleteTask(index int) {
+	
+}
+
 func main() {
 
 }
